@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html, body {
+  background-color: #000;
+  font-size: 10px;
+  height: min-content;
+  width: 100vw;
+}
+
+@font-face {
+  font-family: "Lemon/Milk light Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Lemon/Milk light Regular"),
+    url("fonts/LemonMilklight.woff") format("woff");
+}
+
+.container {
+  margin: 1% 15% 1% 15%;
+  width: 70%;
+  font-size: 4rem;
+}
+
+.logo-container {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.commune-logo {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.commune {
+  font-family: "Lemon/Milk light Regular";
+  color: white;
+  margin: 0 auto;
+  font-size: 10rem;
+}
+
+.commune-small {
+  font-family: "Lemon/Milk light Regular";
+  color: white;
+  margin: 0 auto;
+}
+
+.title{
+  font-family: "Lemon/Milk light Regular";
+  font-weight: bold;
+  color:white;
+}
+
+.orange {
+  background-color: #000000;
+  background-image: linear-gradient(90deg, #f28e26 0%, #fd644f 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.whitepaper-text{
+  font-family: 'Roboto Condensed';
+  color:white;
+  font-size: 3.2rem;
+}
+.main{
+  margin-top: 50px;
+}
+
+@media (max-width: 920px) {
+  html, body {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 530px) {
+  html, body {
+    font-size: 6px;
+  }
+  .container {
+    margin: 5% 6% 5% 6%;
+    width: 88% !important;
+  }
+}
+
+@media (max-width: 400px) {
+  html, body {
+    font-size: 4px;
+  }
+}
