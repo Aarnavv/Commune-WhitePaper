@@ -91,6 +91,40 @@ html, body {
 .px-A {
   margin: 0 0 0 1.5rem;
 }
+ 
+#footer{
+  background: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  font-size: 2rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  max-height: 4rem;
+}
+
+.git {
+  filter: brightness(800%);
+  max-height: 3rem;
+}
+
+.gmail, .discord, .twitter {
+  max-height: 3rem;
+  filter: invert();
+}
+
+.insta {
+  max-height: 5rem;
+}
+
 
 @media (max-width: 920px) {
   html, body {
