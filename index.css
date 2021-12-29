@@ -91,6 +91,21 @@ html, body {
 .px-A {
   margin: 0 0 0 1.5rem;
 }
+
+.pdf {
+  text-align: center;
+}
+
+.wp-link { 
+  font-family: "Lemon/Milk light Regular";
+  color: white;
+  margin: 0 0 0 0;
+  font-size: 4rem;
+}
+
+.pdf:hover {
+  transform: scale(1.1);
+}
  
 #footer{
   background: rgb(0, 0, 0);
