@@ -92,6 +92,55 @@ html, body {
   margin: 0 0 0 1.5rem;
 }
 
+.pdf {
+  text-align: center;
+}
+
+.wp-link { 
+  font-family: "Lemon/Milk light Regular";
+  color: white;
+  margin: 0 0 0 0;
+  font-size: 4rem;
+}
+
+.pdf:hover {
+  transform: scale(1.1);
+}
+ 
+#footer{
+  background: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto Condensed';
+  font-size: 2rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  max-height: 4rem;
+}
+
+.git {
+  filter: brightness(800%);
+  max-height: 3rem;
+}
+
+.gmail, .discord, .twitter {
+  max-height: 3rem;
+  filter: invert();
+}
+
+.insta {
+  max-height: 5rem;
+}
+
+
 @media (max-width: 920px) {
   html, body {
     font-size: 8px;
